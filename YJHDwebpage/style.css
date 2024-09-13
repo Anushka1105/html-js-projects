@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#first_page{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(163, 218, 200);
+    background-image: url(bg_pic1.webp);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blur{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(255, 102, 0, 0.813));
+}
+
+#upper{
+    height: 50%;
+    width: 100%;
+}
+#large{
+    position: relative;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    padding-top: 200px;
+    padding-left: 80px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#small{
+    position: relative;
+    display: flex;
+    padding-left: 80px;
+    color: white;
+    z-index: 30;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+#small p{
+    font-size: 15px;
+    padding-left: 10px;
+    z-index: 30;
+}
+#separation{
+    position: absolute;
+    height: 2px;
+    /* width: 100%; */
+    width:calc(100% - 80px);  /* 100% minus vo left margin ka 80px... ye automatic calculate krne ke liye calc() ka use hota h */
+    background-color: rgba(128, 128, 128, 0.591);
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#lower{
+    position: relative;
+    display: flex;
+    margin-left: 80px;
+    width: 100%;
+    height: 280PX;
+}
+
+#ek{
+    height: 220px;
+    width: 200px;
+    margin-top: 5px;
+    padding: 25px;
+}
+#ek img{
+    height: 220px;
+    width: 130px;
+    border-radius: 30px;
+}
+
+#do{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    position: relative;
+    height: 200px;
+    width: 650px;
+    color: white;
+    margin-top: 50px;
+}
+
+.producers{
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+#all{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+.box{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    height: 30px;
+    width: 80px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1.5px solid white;
+}
+
+#tinn{
+    height: 200px;
+    width: 400px;
+}
+
+#gallery{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-weight: 100;
+}
+#gallery i{
+    font-size: 25px;
+}
+
+#second_page{
+    overflow: hidden;  /* to hide extra overflowing elements */
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 102, 0, 0.857);
+}
+
+#one{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+#one1 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+}
+
+#one2 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+
+}
+#one3 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+}
+#two{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-top: 15px;
+}
+#two1 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+}
+#two2 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+}
+#two3 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+}
+
+#three{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-top: 15px;
+}
+#three1 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+}
+#three2 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+}
+#three3 img{
+    height: 200px;
+    width: 380px;
+    object-fit: cover;
+    padding-left: 15px;
+}
+#line{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-left: 100px;
+}
+
+#third_page{
+    overflow: hidden;  /* to hide extra overflowing elements */
+    /* height: 70%; */
+    height: 70vh;
+    width: 100%;
+    background-color: rgba(255, 102, 0, 0.857);
+    padding-top: 20px;
+}
+#part{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#blur2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: blur(20px);
+}
+#part1 img{
+    height: 100%;
+    width: 510px;
+}
+#part2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#part3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#part2 img{
+    height: 50%;
+    margin: none;
+    width: 380px;
+}
+
+#part3 img{
+    /* height: 219px; */
+    height:50%;
+    width: 510px;
+    object-fit: cover;
+}
+#store {
+    height: 100%;
+    display: flex;
+}
+#store img{
+    height: 100%;
+    width: 255px;
+}
+#write{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    height: 100%;
+    width: 510px;
+    display: flex;
+    position: absolute;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+#write1{
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    gap: 5px;
+}
+#write2{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#write2 :nth-child(1){
+    font-size: 30px;
+}
+
+#write2 :nth-child(2){
+    margin-top: 10px;
+}  
+#hehe{
+    padding-top: 20px;
+}
+
+#written{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+    position: absolute;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 30px;
+}
+#written i{
+    font-size: 20px;
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    z-index: 20;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.blr{
+    filter: brightness(70%);
+
+}
+.z5{
+    z-index: 20;
+}
+
+#nLogo{
+    width: 200px !important;
+    padding-top: 10px;
+}
