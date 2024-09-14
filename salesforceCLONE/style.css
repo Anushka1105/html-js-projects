@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#contact{
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+}
+.icon{
+    padding: 10PX;
+    border-radius: 70%;
+}
+.icon:hover{
+    background-color: rgb(114, 195, 215);
+}
+#login{
+    padding: 10px;
+    border-radius: 50px;   
+}
+#login:hover{
+    background-color: rgb(114, 195, 215);
+}
+#try{
+    color: white;
+    padding: 10px 20px;
+    background-color: #2e844a; 
+    border-radius: 5px;  
+}
+#try:hover{
+    background-color: black;
+}
+.texts{
+    color: rgb(1, 1, 20);
+}
+.texts:hover{
+    color: rgb(114, 195, 215);
+
+}
+#fakeheader{
+    height: 15%;
+    width: 100%;
+}
+
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    background-image: url(photos/php-marquee-starter-lg-bg.webp);
+    background-position: center center;
+}
+#strip{
+    width: 100%;
+    height: 7%;
+    background-color: #032d60;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#heading {
+    font-size: 60px;
+    padding: 3px 8px;
+    font-weight: bolder;
+    color: rgb(25, 25, 84);
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+#container{
+    height: 93%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 100%;
+}
+#left h1{
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#left h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: 200;
+    gap: 10px;
+}
+#btn{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#btn1{
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #0176d3;
+    color: white;
+}
+#btn2{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border: 3px solid #0176d3;
+    text-align: center;
+    padding-top: 15px;
+    color: #0176d3;
+}
+#right{
+    height: 800px;
+    width: 600px;
+}
+#right img{
+    margin-top: 70px;
+    width: 650px;
+    height: 380px;
+    border-radius: 20px;
+}
+
+#second_page{
+    height: 85%;
+    width: 100%;
+}
+#upper h3{
+    text-align: center;
+    font-size: 35px;
+}
+#lower{
+    height: 500px;
+    width: 100%px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+#store1{
+    border-radius: 20px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(137, 131, 131, 0.605);
+}
+#store1 img{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#store2{
+    border-radius: 20px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(137, 131, 131, 0.605);
+}
+#store2 img{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#store3{
+    border-radius: 20px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(137, 131, 131, 0.605);
+}
+#store3 img{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#store4{
+    border-radius: 20px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(137, 131, 131, 0.605);
+}
+#store4 img{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.tpye{
+    margin: 20px;
+}
+.tpye h3{
+    font-size: 22px;
+}
+.tpye h5{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.learn{
+    margin: 20px;
+    padding-top: 50px;
+}
+.learn1{
+    margin: 20px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+
